@@ -1,3 +1,3 @@
 # api
 fake-api
-https://my-json-server.typicode.com/113207-BURASCHI-MATEO/api
+https://my-json-server.typicode.com/113207-BURASCHI-MATEO/owners
