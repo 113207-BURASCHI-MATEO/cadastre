@@ -12,16 +12,22 @@
   { "id": 10, "name": "Ian Gray", "email": "ian.gray@example.com", "flights": [115] }
 ],
   "fligths": [
-  { "flightId": 101, "origin": "New York", "destination": "Los Angeles", "dateTime": "2023-12-01T15:00:00", "airline": "AirOne", "basePrice": 3500, "refundPercentage": 0.0321 },
-  { "flightId": 102, "origin": "Chicago", "destination": "Miami", "dateTime": "2023-12-05T10:00:00", "airline": "SkyHigh", "basePrice": 4500, "refundPercentage": 0.025 },
-  { "flightId": 103, "origin": "Boston", "destination": "San Francisco", "dateTime": "2023-12-03T20:00:00", "airline": "AirOne", "basePrice": 5000, "refundPercentage": 0.035 },
-  { "flightId": 104, "origin": "Seattle", "destination": "Denver", "dateTime": "2023-12-07T08:00:00", "airline": "AirOne", "basePrice": 3000, "refundPercentage": 0.02 },
-  { "flightId": 105, "origin": "Dallas", "destination": "Houston", "dateTime": "2023-12-02T18:00:00", "airline": "SkyHigh", "basePrice": 2500, "refundPercentage": 0.04 },
-  { "flightId": 106, "origin": "Atlanta", "destination": "Orlando", "dateTime": "2023-12-06T13:00:00", "airline": "JetFast", "basePrice": 3200, "refundPercentage": 0.03 },
-  { "flightId": 107, "origin": "Phoenix", "destination": "Las Vegas", "dateTime": "2023-12-10T12:00:00", "airline": "SkyHigh", "basePrice": 2800, "refundPercentage": 0.05 },
-  { "flightId": 108, "origin": "San Diego", "destination": "Portland", "dateTime": "2023-12-04T14:00:00", "airline": "AirOne", "basePrice": 4000, "refundPercentage": 0.025 },
-  { "flightId": 109, "origin": "Philadelphia", "destination": "Nashville", "dateTime": "2023-12-09T11:00:00", "airline": "AirExpress", "basePrice": 3100, "refundPercentage": 0.02 },
-  { "flightId": 110, "origin": "Houston", "destination": "Austin", "dateTime": "2023-12-08T19:00:00", "airline": "AirOne", "basePrice": 2300, "refundPercentage": 0.015 }
+  { "flightId": 101, "origin": "New York", "destination": "Los Angeles", "dateTime": "2023-12-01T15:00:00", "airlineId": 1, "basePrice": 3500 },
+  { "flightId": 102, "origin": "Chicago", "destination": "Miami", "dateTime": "2023-12-05T10:00:00", "airlineId": 2, "basePrice": 4500 },
+  { "flightId": 103, "origin": "Boston", "destination": "San Francisco", "dateTime": "2023-12-03T20:00:00", "airlineId": 1, "basePrice": 5000 },
+  { "flightId": 104, "origin": "Seattle", "destination": "Denver", "dateTime": "2023-12-07T08:00:00", "airlineId": 1, "basePrice": 3000 },
+  { "flightId": 105, "origin": "Dallas", "destination": "Houston", "dateTime": "2023-12-02T18:00:00", "airlineId": 2, "basePrice": 2500 },
+  { "flightId": 106, "origin": "Atlanta", "destination": "Orlando", "dateTime": "2023-12-06T13:00:00", "airlineId": 3, "basePrice": 3200 },
+  { "flightId": 107, "origin": "Phoenix", "destination": "Las Vegas", "dateTime": "2023-12-10T12:00:00", "airlineId": 2, "basePrice": 2800 },
+  { "flightId": 108, "origin": "San Diego", "destination": "Portland", "dateTime": "2023-12-04T14:00:00", "airlineId": 1, "basePrice": 4000 },
+  { "flightId": 109, "origin": "Philadelphia", "destination": "Nashville", "dateTime": "2023-12-09T11:00:00", "airlineId": 4, "basePrice": 3100 },
+  { "flightId": 110, "origin": "Houston", "destination": "Austin", "dateTime": "2023-12-08T19:00:00", "airlineId": 1, "basePrice": 2300 }
+],
+  "airlines": [
+  { "id": 1, "name": "AirOne", "refundPercentage": 0.0321 },
+  { "id": 2, "name": "SkyHigh", "refundPercentage": 0.025 },
+  { "id": 3, "name": "JetFast", "refundPercentage": 0.03 },
+  { "id": 4, "name": "AirExpress", "refundPercentage": 0.02 }
 ]
 }
 
